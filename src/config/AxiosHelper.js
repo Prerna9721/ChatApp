@@ -1,6 +1,6 @@
 import axios from 'axios';
-export const baseURL="chatbackend-production-f10d.up.railway.app";
-
+export const baseURL='http://chat-app-orpin-eight-99.vercel.app';
+ 
 export const httpClient =axios.create({
     baseURL:baseURL,
 });
