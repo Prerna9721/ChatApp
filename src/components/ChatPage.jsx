@@ -153,7 +153,7 @@ function handleLogOut(){
           <div key={index}className={`flex w-full ${message.sender===currentUser ? "justify-end" : "justify-start"}`}>
             <div className={`my-2 ${message.sender===currentUser ?'bg-green-800':'bg-gray-700'} p-2 rounded max-w-xs`}>
             <div className='flex flex-row gap-2'>
-          <img className='h-10 w-10' src={`https://i.pravatar.cc/150?img=${index + 1}`} alt={message.sender}/>
+          <img className='h-10 w-10' src={"https://avatar.iran.liara.run/public"} alt={message.sender}/>
             <div className=' flex flex-col text-white'>
             <p className='text-sm font-bold'>{message.sender}</p>
             <p>{message.content}</p>
