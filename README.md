@@ -1,16 +1,22 @@
-# React + Vite
+💬 ChatApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChatApp is a modern, real-time chat application built with React.js, Spring Boot, and WebSocket (STOMP). It allows users to chat instantly, join multiple rooms, and share images seamlessly.
 
-Currently, two official plugins are available:
+🌟 Features
+Real-time Messaging – Chat instantly with WebSocket support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Multiple Chat Rooms – Join or create rooms to connect with different groups.
 
-## React Compiler
+Responsive UI – Works beautifully on both desktop and mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+User-friendly Interface – Clean, minimal, and intuitive design.
 
-## Expanding the ESLint configuration
+🛠 Tech Stack
+Frontend	Backend	Database
+React.js	Spring Boot	H2 / MySQL
+Axios	Spring WebSocket	JPA / Hibernate
+React Icons	Spring Security	
+📸 Screenshots
+Login Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Chat Room Interface
